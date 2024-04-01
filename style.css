@@ -226,7 +226,7 @@
   }
 
   .second-detail {
-    width: 895px;
+    width: 877px;
 }
 
   .sec-loc-icon {
@@ -286,6 +286,12 @@
 @media (max-width: 998px) {
   .second-detail {
     width: 598px;
+}
+.loc-a i{
+  font-size: 16px !important;
+}
+.loc-a {
+  font-size: 13px !important;
 }
   .second-ul li a, .second-logo {
     font-weight: 500;
