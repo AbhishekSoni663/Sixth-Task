@@ -883,7 +883,6 @@ swiper-slide img {
 }
 
 .sixth-box {
-  /* width: 250px; */
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
@@ -892,7 +891,6 @@ swiper-slide img {
 }
 
 .sixth-box1 {
-  /* width: 250px; */
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
@@ -901,7 +899,6 @@ swiper-slide img {
 }
 
 .sixth-box2 {
-  /* width: 250px; */
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
@@ -910,7 +907,6 @@ swiper-slide img {
 }
 
 .sixth-box3 {
-  /* width: 250px; */
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
@@ -919,7 +915,6 @@ swiper-slide img {
 }
 
 .sixth-box4 {
-  /* width: 250px; */
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
@@ -928,7 +923,6 @@ swiper-slide img {
 }
 
 .sixth-box5 {
-  /* width: 250px; */
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
@@ -937,18 +931,15 @@ swiper-slide img {
 }
 
 .sixth-box6 {
-  /* width: 250px; */
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
   min-height: 235px;
   background-image: url(./img/Asset7.png);
 }
-
 .sixth-img7 {
   height: 197px;
 }
-
 .sixth-img5 {
   position: relative;
   top: -30px;
@@ -1249,6 +1240,13 @@ swiper-slide img {
     right: 48px;
     top: -23px;
     position: relative;
+}
+.fourth-box{
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.fourth-box-a1{
+  padding-left: 10px;
 }
 .seventh-cont{
   width: 90%;
