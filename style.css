@@ -820,7 +820,6 @@ swiper-slide img {
 .swiper-container1 {
   width: 100%;
   height: 100%;
-  /* overflow: hidden; */
 }
 
 .swiper-slide {
@@ -1279,7 +1278,7 @@ swiper-slide img {
   justify-content: space-between;
 }
 .fourth-box-a1{
-  padding-left: 10px;
+  padding-left: 25px;
 }
 .seventh-cont{
   width: 90%;
