@@ -1083,7 +1083,11 @@ swiper-slide img {
 .comment-reply {
   width: 95%;
 }
-
+@media(max-width:998px){
+  .comment-reply {
+    width: 94%;
+}
+}
 @media (max-width: 768px) {
   .comment-card {
     display: none !important;
@@ -1152,12 +1156,18 @@ swiper-slide img {
   .comment-star img {
     width: 10px;
   }
-
+.comment-reply{
+  width: 100%;
+}
   .comment-star-text {
     width: 100%;
   }
 }
-
+@media(max-width:1098px){
+  .comment-reply{
+    padding: 10px 10px !important;
+  }
+}
 @media(max-width:598px) {
   .textar-btn {
     position: static;
