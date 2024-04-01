@@ -1094,6 +1094,18 @@ swiper-slide img {
     width: 94%;
 }
 }
+.bi::before, [class*=" bi-"]::before, [class^=bi-]::before {
+  display: inline-block;
+  font-family: bootstrap-icons!important;
+  font-style: normal;
+  font-weight: 800 !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -.125em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 @media (max-width: 768px) {
   .comment-card {
     display: none !important;
@@ -1101,12 +1113,15 @@ swiper-slide img {
   .footer{
     padding: 20px 0px !important;
   }
-
   .foot-review {
     display: flex;
     flex-direction: column-reverse;
     font-size: 13px;
-  }
+    padding: 10px 0px !important;
+}
+.foot-comment {
+    padding: 8px 0px !important;
+}
 
   .progress-section {
     width: 100% !important;
@@ -1287,4 +1302,9 @@ swiper-slide img {
 }
 .ip-text{
   padding-top: 30px !important;
+}
+.review-tot{
+  font-size: 13px;
+  color: #3e3e3e;
+  font-weight: 500;
 }
