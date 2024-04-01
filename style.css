@@ -338,6 +338,7 @@
     width: 410px;
     padding-top: 6px !important;
   }
+ 
   .sec-text a,
   .sec-location a,
   .sec-loc-icon-text a {
@@ -351,6 +352,11 @@
   .sec-icon-text {
     width: 75%;
   }
+}
+@media(max-width:767px){
+  .second-ul li a, .second-logo {
+    font-size: 14px !important;
+}
 }
 @media(max-width:736px){
   .card-box{
