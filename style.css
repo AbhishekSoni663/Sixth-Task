@@ -19,6 +19,7 @@
 
 .nav-inp {
   padding: 10px;
+  border:1px solid rgba(99,222,100,0.61);
 }
 
 .fa-chevron-down {
